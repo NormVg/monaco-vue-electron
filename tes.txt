@@ -1,0 +1,32 @@
+── build
+│   ├── entitlements.mac.plist
+│   ├── icon.icns
+│   ├── icon.ico
+│   └── icon.png
+├── electron-builder.yml
+├── electron.vite.config.mjs
+├── package.json
+├── package-lock.json
+├── README.md
+├── resources
+│   └── icon.png
+└── src
+    ├── main
+    │   └── index.js
+    ├── preload
+    │   └── index.js
+    └── renderer
+        ├── index.html
+        ├── public
+        │   └── vs
+        └── src
+            ├── App.vue
+            ├── assets
+            │   ├── base.css
+            │   ├── electron.svg
+            │   ├── loader.js
+            │   ├── main.css
+            │   └── wavy-lines.svg
+            ├── components
+            │   └── Versions.vue
+            └── main.js
